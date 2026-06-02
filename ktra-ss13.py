@@ -63,7 +63,7 @@ QUẢN LÝ BÃI XE SMART PARKING
                     data[id_in]["deleted"] = True
                     print("Đã xóa xe")
                 else:
-                    raise Exception(f"Không tìm thấy xe có ID",id_in + 1)
+                    raise Exception("Không tìm thấy xe có ID",id_in + 1)
             except:
                 print("Không tìm thấy xe để xóa")
         case "5":
