@@ -69,3 +69,5 @@ QUẢN LÝ BÃI XE SMART PARKING
         case "5":
             print("Đã xóa")
             break
+        case _:
+            print("Vui lòng nhập (1-5)")
